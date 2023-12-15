@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Example</title>
+    <style>
+        /* Estilo para el contenedor principal (parent) */
+        .parent {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh; /* Ajusta la altura para que ocupe la altura completa del viewport */
+            background-color: #f0f0f0; 
+            padding: 20px; /* Agrega espacio interno para mayor claridad */
+        }
+
+        /* Estilo para el elemento secundario (child) */
+        .child {
+            flex-basis: 20%;
+            text-align: center;
+            background-color: #3498db; 
+            color: #fff; /* Cambia el color del texto para que sea visible en el fondo azul */
+            padding: 10px; /* Añade algún espacio interno para mayor claridad */
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenedor principal (parent) -->
+    <div class="parent">
+        <!-- Elemento secundario (child) -->
+        <div class="child">Child 1</div>
+        <!-- Elemento secundario (child) -->
+        <div class="child">Child 2</div>
+        <!-- Elemento secundario (child) -->
+        <div class="child">Child 3</div>
+    </div>
+</body>
+</html>

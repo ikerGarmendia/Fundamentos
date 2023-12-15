@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skewed Image Box Example</title>
+    <style>
+        /* Estilos para el contenedor de imagen (.my-img-box) */
+        .my-img-box {
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform-origin: top right; /* Establece el origen de la transformación en la esquina superior derecha */
+            transform: skewY(-3deg);
+        }
+
+        /* Estilos para la imagen dentro del contenedor  */
+        .my-img-box img {
+            width: 100%; 
+            height: auto; 
+            display: block; 
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="my-img-box">
+        <!-- Imagen con atributos de ancho y alto -->
+        <img src="images/koala.jpg" alt="Koala">
+    </div>
+</body>
+</html>

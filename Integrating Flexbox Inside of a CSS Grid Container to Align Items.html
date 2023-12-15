@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Example</title>
+    <style>
+        /* Estilo para el contenedor de enlaces (.link-box) */
+        .link-box {
+            display: flex;
+            justify-content: space-between; /* Alinea los elementos con espacio en medio */
+            align-items: center; /* Centra los elementos verticalmente */
+            background-color: #f0f0f0; /* Solo para visualización, puedes cambiarlo según tus preferencias */
+            padding: 10px; /* Agrega algún espacio interno para mayor claridad */
+        }
+
+        /* Estilo adicional para resaltar visualmente los enlaces */
+        .link {
+            border: 1px solid #ccc;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        /* Estilo para el texto de los enlaces */
+        .link a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenedor de enlaces (.link-box) con enlaces anidados -->
+    <div class="link-box">
+        <span class="link">
+            <a href="home.html">HOME</a>
+        </span>
+        <span class="link">
+            <a href="contact.html">CONTACT</a>
+        </span>
+        <span class="link">
+            <a href="portfolio.html">PORTFOLIO</a>
+        </span>
+    </div>
+</body>
+</html>

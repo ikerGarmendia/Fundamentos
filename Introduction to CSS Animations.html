@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de Codificación</title>
+    <style>
+        /* Estilo para los elementos <span> dentro del primer hijo de .parent */
+        .parent > .first-child-element > span {
+            width: 100px;
+            background-color: green;
+            transition: all 0.7s; /* Transición de 0.7 segundos en todos los cambios */
+        }
+
+        /* Estilo al pasar el ratón por encima del <span> dentro del primer hijo de .parent */
+        .parent > .first-child-element > span:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <div class="parent">
+        <!-- Primer hijo de .parent -->
+        <div class="first-child-element">
+            <span>Item 1</span>
+            <span>Item 2</span>
+            <span>Item 3</span>
+        </div>
+    </div>
+</body>
+</html>
